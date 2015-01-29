@@ -15,5 +15,6 @@ public class PlusExpression extends Expression {
 	public IntegerValue interpret() {
 		return left.interpret().plus(right.interpret());
 	}
+	
 
 }
